@@ -1,0 +1,21 @@
+{
+  "name": "chl/composer-demo",
+  "description": "demo",
+  "type": "library",
+  "require": {
+    "php": "7.*"
+  },
+  "license": "Apache",
+  "authors": [
+    {
+      "name": "chl",
+      "email": "843611554@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Chl\\demo\\" : "src/"
+    }
+  }
+}
